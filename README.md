@@ -6,7 +6,7 @@ The rework will include
 *  Consistent use of 
 font style, font size 
  
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+* 8+ pages
+* Consistent and uniform use of
+  * font stylea
+  * font
