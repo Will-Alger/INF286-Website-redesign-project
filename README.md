@@ -5,6 +5,7 @@ The purpose of this site is to provide a catalog of shipwrecks around Ireland an
 
 
 ### Goal of project
+##### *This project will be redesigning 8 pages*
 * Update the asthetic and style.
 * Improve website navigation.
 * Improve presentation and organization of information.
