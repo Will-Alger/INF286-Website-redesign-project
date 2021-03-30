@@ -2,8 +2,8 @@
     Credit: Inspiration for this menu design was taken from this template: https://codepen.io/una/pen/Gxwogy 
 */
 :root {
-    --darkblue: #5E81AC;
-    --lightblue: #81A1C1; 
+    --lightgreen: #70a989;
+    --darkgreen: #52896b; 
 }
 
 nav ul a {
@@ -15,22 +15,22 @@ a {
 
 nav {
 	font-family: sans-serif;
-   
 }
 
-nav {
-    
+ul{
+    justify-content: center;
+    display: flex;
 }
 
 ul {
-    background: var(--darkblue);
+
 	list-style: none;
 	padding-left: 0;  
 }
 
 li {
     color: #fff;
-    background: var(--lightblue);
+    background: var(--darkgreen);
 	display: inline-block;
 	float: left;
 	padding: 17px 25px 17px 25px;
@@ -46,12 +46,11 @@ li a {
 }
 
 li:hover {
-	background: var(--darkblue);
+	background: var(--lightgreen);
 	cursor: pointer;
 }
 
 ul li ul {
-	background: orange;
 	visibility: hidden;
     opacity: 0;
     min-width: 5rem;
