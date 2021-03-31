@@ -1,79 +1,60 @@
-/* 
-    Credit: Inspiration for this menu design was taken from this template: https://codepen.io/una/pen/Gxwogy 
-*/
-:root {
-    --lightgreen: #70a989;
-    --darkgreen: #52896b; 
+.caret.down {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border: 4px solid transparent;
+    border-top-color: black; 
+    /* use:     &nbsp;<span class="caret down"></span>     to write a carot for dropdowns  */
 }
 
-nav ul a {
 
-}
-a {
-  text-decoration: none;
-}
-
-nav {
-	font-family: sans-serif;
+.nav {
+    width: 1000px;
+    margin: 10px auto 0px auto;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
 }
 
-ul{
-    justify-content: center;
-    display: flex;
+
+ .nav ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align: center;
 }
 
-ul {
+  .nav ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
 
-	list-style: none;
-	padding-left: 0;  
-}
-
-li {
-    color: #fff;
-    background: var(--darkgreen);
-	display: inline-block;
-	float: left;
-	padding: 17px 25px 17px 25px;
-	position: relative;
-	text-decoration: none;
-    transition-duration: 0.5s;
-    
-}
-  
-li a {
-  color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.1em;
     
 }
 
-li:hover {
-	background: var(--lightgreen);
-	cursor: pointer;
+
+.nav ul li a {
+    text-decoration: none;
+    color:white;
+    display: block;
 }
 
-ul li ul {
-	visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-	left: 0;
-    display: none;
-    
+.nav ul li ul li a {
+    color:black;
 }
 
-ul li:hover > ul,
-
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-    
+  .nav ul li a:hover {
+    border-bottom: 2px solid black;
 }
 
-ul li ul li {
-    clear: both;
-    width: 100%;
-    
+  .nav ul li ul li {
+    color:white;
+    visibility: hidden;
 }
 
+  .nav ul li:hover ul li {
+    visibility: visible;
+}
