@@ -3,7 +3,7 @@
     height: 0;
     display: inline-block;
     border: 4px solid transparent;
-    border-top-color: black; 
+    border-top-color: white; 
     /* use:     &nbsp;<span class="caret down"></span>     to write a carot for dropdowns  */
 }
 
@@ -28,13 +28,10 @@
     float: left;
     width: 200px;
     height: 40px;
-
     line-height: 40px;
     text-align: center;
     font-size: 1.1em;
-    
 }
-
 
 .nav ul li a {
     text-decoration: none;
@@ -42,12 +39,21 @@
     display: block;
 }
 
+
 .nav ul li ul li a {
-    color:black;
+    background-color:#193d06;
 }
 
-  .nav ul li a:hover {
-    border-bottom: 2px solid black;
+.nav ul li ul li a {
+    color:white;
+}
+
+.nav ul a:hover {
+    color: #d1d1d1;
+}
+
+.nav ul li ul li a:hover {
+    background-color: #112904;
 }
 
   .nav ul li ul li {
