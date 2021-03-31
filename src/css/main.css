@@ -14,35 +14,61 @@
 * {
     margin:0;
 }
+@font-face {
+    font-family: PalanquinRegular;
+    src: url("../fonts/palanquin/palanquin-regular.ttf") format('truetype');
+}
+#map {
+  height: 100%;
+}
 
-header, nav {
-    position: static
+
+header h1, p {
+     text-align: center;
+     color: black;
+}
+
+footer {
+    width: 50%;
+    margin: 20px auto;
+    color: black;
+    text-align: center;
+    font-size: small;
+    font-family: arial;
 }
 
 header h1 {
-    text-align: center;
-    font-family: sans-serif;
-    color: white;
+    font-family: PalanquinRegular;
     font-size: 3em;
-    margin:auto;
-    padding: 8px 0 8px 0;
+    padding: 8px 0 0 0;
+}
+
+header p {
+    font-family: arial;
+    font-weight: bold;
+    font-size:1.2em;
+    margin:0;
+    padding: 0 0 8px; 0;
 }
 
 
-#wrapper {
-    background-image: url(../../img/site-img/bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 
+.fixed_container {
+    position: fixed;
+    padding: 2em;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+    background-color: white;
     width: 100%;
-    height: 600px;
-    padding-top: 40px;
+    box-shadow: 10px 1px 5px -2px black;
 }
 
-#content {
-
+.content {
+    margin: 200px 0 0 0;
 }
+
+
 
 
 
