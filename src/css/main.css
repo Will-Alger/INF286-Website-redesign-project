@@ -1,3 +1,4 @@
+
 * {
     margin:0;
     padding:0;
@@ -7,12 +8,34 @@ header {
     text-align: center;
     font-family: sans-serif;
     color:white;
-    font-size: 1.35em
+    font-size: 1.35em;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
 }
 
 .top_container {
-    background-color:#143004;
+    background-color:#10403F;
     margin:0;
     padding: 40px;
+ 
 }
 
+body {
+    background-image:url(../img/site-img/bg.jpg);
+    background-attachment: fixed;
+}
+
+.white_bar {
+    background-color: white;
+    height: 35px;
+    box-shadow:0 3px 6px rgba(0,0,0,0.2);
+}
+
+.content {
+    margin: 500px auto 0 auto;
+    background-color:#102940; 
+    color:white;
+    text-align: center;
+    min-height: 600px;
+   
+
+}

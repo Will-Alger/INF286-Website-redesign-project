@@ -10,10 +10,11 @@
 
 .nav {
     width: 1000px;
-    margin: 10px auto 0px auto;
+    margin: 10px auto 10px auto;
     font-family: arial;
     font-weight: bold;
     color: white;
+    
 }
 
 
@@ -40,20 +41,24 @@
 }
 
 
+
 .nav ul li ul li a {
-    background-color:#193d06;
+    background-color:#10403F;
 }
 
 .nav ul li ul li a {
     color:white;
+  
 }
 
 .nav ul a:hover {
-    color: #d1d1d1;
+    color: #d1d1d1; 
 }
 
 .nav ul li ul li a:hover {
-    background-color: #112904;
+    background-color: #1A6967;
+    border-left: 2px solid white;
+    
 }
 
   .nav ul li ul li {
