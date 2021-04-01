@@ -6,13 +6,16 @@
     border-top-color: white; 
     /* use:     &nbsp;<span class="caret down"></span>     to write a carot for dropdowns  */
 }
-
+@font-face {
+    font-family: 'BENETOpti';
+    src: url(../fonts/BENETOpti-Black/BENETOpti-Black.otf)
+}
 
 .nav {
     width: 1000px;
     margin: 10px auto 10px auto;
-    font-family: arial;
-    font-weight: bold;
+    font-family: 'BENETOpti';
+  
     color: white;
     
 }
