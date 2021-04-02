@@ -8,11 +8,13 @@
 
 /* fonts */
 @font-face {
-    font-family: Lato;
-    src: url("fonts/Lato/Lato-Regular.ttf");
-
     font-family: 'BENETOpti';
     src: url("/src/fonts/BENETOpti-Black/BENETOpti-Black.otf");
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("fonts/Lato/Lato-Regular.ttf");
 }
 
 
@@ -113,10 +115,12 @@ header p{margin-bottom:10px}
 
 /* *** homepage specific styling START *** */
 .homepage_bg {
+
     background-image: url("/src/img/site-img/bg-1.png");
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 80%;
+ 
 }
 
 
@@ -209,7 +213,10 @@ p {
 .content p {
     line-height: 2;
 }
+/* Generic styling END */
 
+
+/* Awards styling START */
 #awards {
     width:50%;
     margin: 50px auto 0 auto;
@@ -226,6 +233,32 @@ p {
 #last_award {
     margin-bottom: 100px;
 }
+/* Awards styling END */
+
+
+
+/* shipwreck_by_name styling */
+.by_name_table {
+    border-collapse: collapse;
+    margin:auto;
+    width: 60%;
+    font-family: sans-serif;
+    
+}
+
+.by_name_table th {
+    font-size: 1.8em;
+    vertical-align: top;
+    
+    
+}
+
+.by_name_table th, td{
+    padding: 10px;
+    border: 1px solid black;
+     
+}
+
 
 
 
