@@ -62,7 +62,7 @@ header p{margin-bottom:10px}
     width: 1000px;
     margin: 10px auto 10px auto;
     padding: 3px 0 3px 0;
-    font-family: 'BENETOpti';
+    font-family: 'BENETOpti', sans-serif,  Helvetica;
     color: white; 
 }
  .nav ul {
