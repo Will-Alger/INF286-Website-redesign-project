@@ -9,7 +9,8 @@
 /* fonts */
 @font-face {
     font-family: Lato;
-    src: url(../fonts/Lato/Lato-Regular.ttf)
+   
+    src: url(/src/fonts/Lato/Lato-Regular.ttf)
 }
 
 
@@ -56,7 +57,7 @@ header p{margin-bottom:10px}
 }
 @font-face {
     font-family: 'BENETOpti';
-    src: url(../fonts/BENETOpti-Black/BENETOpti-Black.otf)
+    src: url(/src/fonts/BENETOpti-Black/BENETOpti-Black.otf)
 }
 .nav {
     width: 1000px;
@@ -113,7 +114,7 @@ header p{margin-bottom:10px}
 
 /* *** homepage specific styling START *** */
 .homepage_bg {
-    background-image:url(../img/site-img/bg.jpg);
+    background-image: url(/src/img/site-img/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 80%;
@@ -127,6 +128,7 @@ header p{margin-bottom:10px}
     text-align: center;
     padding: 20px 0px 0px 0px;
     font-family: sans-serif;
+    min-height: 500px
 }
 
 /* Google map styling */
@@ -135,12 +137,12 @@ header p{margin-bottom:10px}
     float:left;
     width: 600px;; 
     height:450px;
-    padding: 5px 0 0 15px;
+    padding: 15px 0 0 25px;
 }
 
 #map_text {
     text-align: left;
-    margin: 0 0 0 630px;
+    margin: 0 0 0 660px;
     padding-top: 30px;
     padding-left: 40px;
     max-width: 800px;
@@ -186,8 +188,9 @@ p {
 }
 
 .content {
-    margin: 300px auto 0 auto;
+    margin: 300px auto 0px auto;
     color:black;
+  
 }
 .content h1 {
     padding: 5px;
@@ -221,12 +224,10 @@ p {
     margin-bottom: 15px;
 }
 
-
-footer {
-    margin: 100px 0 20px 0;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: small;
+#last_award {
+    margin-bottom: 100px;
 }
+
+
 
 
