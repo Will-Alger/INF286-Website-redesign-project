@@ -1,0 +1,231 @@
+
+
+
+
+
+/* *** NAV content that is included on every page START *** */
+/* Note: this styling is required for every page to maintain consistency with navigation */
+
+/* fonts */
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato/Lato-Regular.ttf)
+}
+
+
+* {
+    margin:0;
+    padding:0;
+}
+header {
+    text-align: center;
+    font-family: 'BENETOpti';
+    color:white;
+    font-size: 1.2em;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+header p{margin-bottom:10px}
+
+.top_container {
+    top:0;
+    /* background-color:#10403F; */
+    Background-color:#44678A;
+    margin:0;
+    padding: 10px 0px 0px 0px;
+    width:100%;
+    position:fixed;
+}
+
+.white_bar {
+    width: 100%;
+    height: 35px;
+    padding:0;
+    background-color:white;
+    margin-top: 55px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+.caret.down {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border: 4px solid transparent;
+    border-top-color: white; 
+    /* use:     &nbsp;<span class="caret down"></span>     to write a carot for dropdowns  */
+}
+@font-face {
+    font-family: 'BENETOpti';
+    src: url(../fonts/BENETOpti-Black/BENETOpti-Black.otf)
+}
+.nav {
+    width: 1000px;
+    margin: 10px auto 10px auto;
+    padding: 3px 0 3px 0;
+    font-family: 'BENETOpti';
+    color: white; 
+}
+ .nav ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align: center;
+}
+  .nav ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1em;
+}
+.nav ul li a {
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+.nav ul li ul li a {
+    background-color:#5681AB;
+}
+
+.nav ul li ul li a {
+    color:white;
+}
+.nav ul a:hover {
+    color: #d1d1d1; 
+}
+
+.nav ul li ul li a:hover {
+    background-color: #81a5ca;
+    border-left: 2px solid white; 
+}
+
+  .nav ul li ul li {
+    color:white;
+    visibility: hidden;
+}
+
+  .nav ul li:hover ul li {
+    visibility: visible;
+}
+/* *** NAV content that is included on every page END *** */
+
+
+/* *** homepage specific styling START *** */
+.homepage_bg {
+    background-image:url(../img/site-img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 80%;
+}
+
+
+.homepage_content {
+    margin: 200px auto 0 auto;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    background-color:white;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-family: sans-serif;
+}
+
+/* Google map styling */
+
+#map {
+    float:left;
+    width:"600"; 
+    height:"450";
+    padding: 5px 0 0 15px;
+}
+
+#map_text {
+    text-align: left;
+    margin: 0 0 0 630px;
+    padding-top: 30px;
+    padding-left: 40px;
+    max-width: 800px;
+}
+
+#map_text h2 {
+    font-size: 2em;
+    margin-bottom:30px
+}
+
+
+#map_text p {
+    
+}
+
+#homepage_msg {
+    margin: 355px auto 0px auto;
+    text-align: center;
+    color:white;
+    width: 50%;
+    padding: 15px;
+    font-family: Lato, sans-serif;
+    
+}
+
+#homepage_footer {
+    margin-top:290px;
+    padding: 30px;
+    font-size: small;
+}
+/* *** homepage specific styling END *** */
+
+/* Generic styling START */
+h1,h2,h3,h4,h5,h6 {
+    font-family: Lato, sans-serif;
+}
+
+p {
+    font-family: sans-serif, arial;
+}
+#author_content {
+    width: 50%;
+}
+
+.content {
+    margin: 300px auto 0 auto;
+    color:black;
+}
+.content h1 {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.content h1, .content h2 {
+    text-align: center;
+}
+
+.content hr {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.content p {
+    line-height: 2;
+}
+
+#awards {
+    width:50%;
+    margin: 50px auto 0 auto;
+
+}
+
+.award_section {
+    margin-top: 100px;
+}
+.award_section h2,h3{
+    margin-bottom: 15px;
+}
+
+
+footer {
+    margin: 100px 0 20px 0;
+    text-align: center;
+    font-size: small;
+}
+
+
