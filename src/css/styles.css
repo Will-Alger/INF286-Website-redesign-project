@@ -9,8 +9,10 @@
 /* fonts */
 @font-face {
     font-family: Lato;
-   
-    src: url(/src/fonts/Lato/Lato-Regular.ttf)
+    src: url("fonts/Lato/Lato-Regular.ttf");
+
+    font-family: 'BENETOpti';
+    src: url("/src/fonts/BENETOpti-Black/BENETOpti-Black.otf");
 }
 
 
@@ -55,10 +57,7 @@ header p{margin-bottom:10px}
     border-top-color: white; 
     /* use:     &nbsp;<span class="caret down"></span>     to write a carot for dropdowns  */
 }
-@font-face {
-    font-family: 'BENETOpti';
-    src: url(/src/fonts/BENETOpti-Black/BENETOpti-Black.otf)
-}
+
 .nav {
     width: 1000px;
     margin: 10px auto 10px auto;
@@ -114,7 +113,7 @@ header p{margin-bottom:10px}
 
 /* *** homepage specific styling START *** */
 .homepage_bg {
-    background-image: url(/src/img/site-img/bg.jpg);
+    background-image: url("/src/img/site-img/bg.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 80%;
