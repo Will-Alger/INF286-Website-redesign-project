@@ -125,8 +125,7 @@ header p{margin-bottom:10px}
 
 
 /* *** homepage specific styling START *** */
-.homepage_bg {
-
+#homepage_body {
     background-image: url(/img/site-img/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -135,7 +134,7 @@ header p{margin-bottom:10px}
 }
 
 
-.homepage_content {
+#homepage_content {
     margin: 200px auto 0 auto;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
     background-color:white;
@@ -266,7 +265,7 @@ p {
 /* shipwreck_by_name styling START */
 .by_name_table {
     border-collapse: collapse;
-    margin:auto;
+    margin:auto auto 100px auto;
     width: 60%;
     font-family: sans-serif;
     
