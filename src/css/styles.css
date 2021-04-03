@@ -117,24 +117,8 @@ header p{margin-bottom:10px}
 /* *** NAV content that is included on every page END *** */
 
 
-
-
-
-
-
-
-
-/* *** homepage specific styling START *** */
-/* #homepage_body {
-    background-image: url(/img/site-img/bg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position-y: 80%;
- 
-}*/
-
 #homepage_bg_img {
-    background-image: url(/img/site-img/bg-1.png);
+    background-image: url(/img/site-img/bg.jpg);
     width: 100%;
     height: 400px;
     background-attachment: fixed;
