@@ -1,22 +1,22 @@
 
+/* fonts */
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato/Lato-Regular.ttf)  format('truetype'); /* Used for <h2> and smaller */
+}
 
+
+@font-face {
+    font-family: 'BENETOpti';
+    src: url(/fonts/BENETOpti/BENETOpti-black.woff)  format('woff'); /* Used for <h1> and nav */
+}
+
+/* Sans-Serif used for <p> or smaller  */
 
 
 
 /* *** NAV content that is included on every page START *** */
 /* Note: this styling is required for every page to maintain consistency with navigation */
-
-/* fonts */
-@font-face {
-    font-family: 'BENETOpti';
-    src: url("/src/fonts/BENETOpti-Black/BENETOpti-Black.otf");
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url("fonts/Lato/Lato-Regular.ttf");
-}
-
 
 * {
     margin:0;
@@ -24,11 +24,15 @@
 }
 header {
     text-align: center;
-    font-family: 'BENETOpti';
+    font-family: 'BENETOpti', sans-serif,  Helvetica;
     color:white;
     font-size: 1.2em;
     text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.6);
 }
+
+header h1 {font-family: 'BENETOpti'}
+header p {font-family: 'Lato'}
+
 
 header p{margin-bottom:10px}
 
@@ -113,10 +117,17 @@ header p{margin-bottom:10px}
 /* *** NAV content that is included on every page END *** */
 
 
+
+
+
+
+
+
+
 /* *** homepage specific styling START *** */
 .homepage_bg {
 
-    background-image: url("/src/img/site-img/bg-1.png");
+    background-image: url(/img/site-img/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 80%;
@@ -167,7 +178,7 @@ header p{margin-bottom:10px}
     color:white;
     width: 50%;
     padding: 15px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     
 }
 
@@ -177,6 +188,12 @@ header p{margin-bottom:10px}
     font-size: small;
 }
 /* *** homepage specific styling END *** */
+
+
+
+
+
+
 
 /* Generic styling START */
 h1,h2,h3,h4,h5,h6 {
@@ -216,7 +233,11 @@ p {
 /* Generic styling END */
 
 
-/* Awards styling START */
+
+
+
+
+/* Awards page styling START */
 #awards {
     width:50%;
     margin: 50px auto 0 auto;
@@ -233,11 +254,16 @@ p {
 #last_award {
     margin-bottom: 100px;
 }
-/* Awards styling END */
+/* Awards page styling END */
 
 
 
-/* shipwreck_by_name styling */
+
+
+
+
+
+/* shipwreck_by_name styling START */
 .by_name_table {
     border-collapse: collapse;
     margin:auto;
@@ -249,16 +275,16 @@ p {
 .by_name_table th {
     font-size: 1.8em;
     vertical-align: top;
-    
-    
+    font-family:'Lato';
 }
+
 
 .by_name_table th, td{
     padding: 10px;
     border: 1px solid black;
      
 }
-
+/* shipwreck_by_name styling END */
 
 
 
