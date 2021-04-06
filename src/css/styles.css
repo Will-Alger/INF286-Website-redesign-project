@@ -116,7 +116,7 @@ header p{margin-bottom:10px}
 }
 /* *** NAV content that is included on every page END *** */
 
-
+/* *** homepage specific styling START*** */
 #homepage_bg_img {
     background-image: url(../img/site-img/bg.jpg);
     width: 100%;
@@ -183,12 +183,6 @@ header p{margin-bottom:10px}
 }
 /* *** homepage specific styling END *** */
 
-
-
-
-
-
-
 /* Generic styling START */
 h1,h2,h3,h4,h5,h6 {
     font-family: Lato, sans-serif;
@@ -226,11 +220,6 @@ p {
 }
 /* Generic styling END */
 
-
-
-
-
-
 /* Awards page styling START */
 #awards {
     width:50%;
@@ -249,12 +238,6 @@ p {
     margin-bottom: 100px;
 }
 /* Awards page styling END */
-
-
-
-
-
-
 
 
 /* shipwreck_by_name styling START */
