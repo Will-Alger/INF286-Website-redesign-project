@@ -2,13 +2,13 @@
 /* fonts */
 @font-face {
     font-family: 'Lato';
-    src: url(/fonts/Lato/Lato-Regular.ttf)  format('truetype'); /* Used for <h2> and smaller */
+    src: url(../fonts/Lato/Lato-Regular.ttf)  format('truetype'); /* Used for <h2> and smaller */
 }
 
 
 @font-face {
     font-family: 'BENETOpti';
-    src: url(/fonts/BENETOpti/BENETOpti-black.woff)  format('woff'); /* Used for <h1> and nav */
+    src: url(../fonts/BENETOpti/BENETOpti-Black.woff)  format('woff'); /* Used for <h1> and nav */
 }
 
 /* Sans-Serif used for <p> or smaller  */
@@ -38,7 +38,7 @@ header p{margin-bottom:10px}
 
 .top_container {
     top:0;
-    /* background-color:#10403F; */
+    
     Background-color:#44678A;
     margin:0;
     padding: 10px 0px 0px 0px;
@@ -241,28 +241,38 @@ p {
 
 
 /* shipwreck_by_name styling START */
-.by_name_table {
+.table {
     border-collapse: collapse;
     margin:auto auto 100px auto;
     width: 60%;
     font-family: sans-serif;
     
 }
+.table #by_name_header {
+    background-color:#5681AB;
+    color: white;
+}
 
-.by_name_table th {
+.table th {
     font-size: 1.8em;
     vertical-align: top;
     font-family:'Lato';
+    color: black;
 }
 
 
-.by_name_table th, td{
+.table th, td{
     padding: 10px;
     border: 1px solid black;
-     
 }
 /* shipwreck_by_name styling END */
 
 
 
+/*
+<tr>
+                    <th rowspan=""></th>
+                    <td></td>
+                </tr>
 
+*/
