@@ -139,7 +139,7 @@ header p{margin-bottom:10px}
 }
 
 #homepage_content {
-    margin: 0px auto 0 auto;
+    margin: 0 auto 0 auto;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
     background-color:white;
     text-align: center;
@@ -159,7 +159,7 @@ header p{margin-bottom:10px}
 
 #map_text {
     text-align: left;
-    margin: 0 0 0 660px;
+    margin: 0 0 320px 660px;
     padding-top: 30px;
     padding-left: 40px;
     max-width: 800px;
@@ -176,11 +176,6 @@ header p{margin-bottom:10px}
 }
 
 
-#homepage_footer {
-    margin-top:290px;
-    padding: 30px;
-    font-size: small;
-}
 /* *** homepage specific styling END *** */
 
 /* Generic styling START */
@@ -191,13 +186,12 @@ h1,h2,h3,h4,h5,h6 {
 p {
     font-family: sans-serif, arial;
 }
-#author_content {
-    width: 50%;
-}
+
 
 .content {
-    margin: 300px auto 0px auto;
+    margin: 300px auto 0 auto;
     color:black;
+  
   
 }
 .content h1 {
@@ -218,33 +212,27 @@ p {
 .content p {
     line-height: 2;
 }
+
+footer {
+    font-size: small;
+    font-style:italic;
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+   
+} 
 /* Generic styling END */
 
-/* Awards page styling START */
-#awards {
-    width:50%;
-    margin: 50px auto 0 auto;
-
-}
-
-.award_section {
-    margin-top: 100px;
-}
-.award_section h2,h3{
-    margin-bottom: 15px;
-}
-
-#last_award {
-    margin-bottom: 100px;
-}
-/* Awards page styling END */
 
 
-/* shipwreck_by_name styling START */
+
+/* Generic table styling */
 .table {
     border-collapse: collapse;
     margin:auto auto 100px auto;
-    width: 60%;
+    width: 100%;
     font-family: sans-serif;
     
 }
@@ -265,14 +253,32 @@ p {
     padding: 10px;
     border: 1px solid black;
 }
-/* shipwreck_by_name styling END */
 
 
+#award_table {
+    min-height: 600px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 15px;
+}
 
-/*
-<tr>
-                    <th rowspan=""></th>
-                    <td></td>
-                </tr>
+#award_table h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#award_table h4 {
+    margin: 10px 0 10px 0;
+}
+#award_table td {
+    padding: 40px;
+    width: 33.333%;
+    border: 2px solid black;
+    display: table-cell;
+    vertical-align: top;
+}
 
-*/
+#award_table p {
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 2;
+}
