@@ -22,6 +22,9 @@
     margin:0;
     padding:0;
 }
+body {
+  height: 100%;
+}
 header {
     text-align: center;
     font-family: 'BENETOpti', sans-serif,  Helvetica;
@@ -217,12 +220,17 @@ footer {
     font-size: small;
     font-style:italic;
     text-align: center;
-    position:absolute;
+    position:fixed;
     width: 100%;
-    height: 50px;
+    height: 20px;
     bottom: 0;
-   
+    background-color: white;
+    box-shadow: 50px 50px 50px 30px rgba(0,0,0,0.2);
+    line-height: 20px; 
 } 
+
+/* use <footer>&copy; Copyright irishwrecksonline.net 1997 - 2021 - All external copyrights respectfully acknowledged</footer> /* for footer
+
 /* Generic styling END */
 
 
@@ -259,7 +267,7 @@ footer {
     min-height: 600px;
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 #award_table h3 {
@@ -281,4 +289,9 @@ footer {
     text-align: justify;
     margin-bottom: 20px;
     line-height: 2;
+}
+
+#about_content {
+    width: 60%;
+    margin-bottom: 250px
 }
